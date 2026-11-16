@@ -1,0 +1,195 @@
+# ===========================================================================
+# Multilingual file for the TOS 7 Docker application "chatgptnextwebdocker".
+# File name MUST be: <appid>.lang.  23-language superset (14 required by TOS).
+# The App Center picks the text matching the user's device language;
+# untranslated nodes fall back to English, which the official guide allows.
+# Fields: name (app title), auth (upstream author), descript (up to 512
+# chars), release_note, important (up to 512 chars).
+# Translations come from tosapp.json "translations"; run
+#   tosdocker lang <app>          to re-render this file
+#   tosdocker translate <app>     to see what still needs translating
+# ===========================================================================
+[en-us]
+name         = "ChatGPT Next Web"
+auth         = "NextChat"
+version      = "@@VERSION@@"
+descript     = "ChatGPT Next Web is a cross-platform chat UI for OpenAI, Azure, Claude, Gemini and other model providers. This package runs the official Docker Hub image as a non-root container; API keys and chat history are kept in the browser, so no server-side database is required."
+release_note = "1. First release."
+important    = "Open the web UI, then set your API endpoint and key in Settings (they are stored in your browser). No server-side data is written; the mounted data folder only exists for platform compliance. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN."
+
+[zh-cn]
+name         = "ChatGPT Next Web"
+auth         = "NextChat"
+version      = "@@VERSION@@"
+descript     = "ChatGPT 风格的多模型聊天前端，需自备 API Key。"
+release_note = "1. First release."
+important    = "首次使用请打开网页完成初始化。数据保存在 DockerAppData/chatgptnextwebdocker，重启和升级不会丢失。容器以 uid 1000 运行，挂载目录需对该用户可读。需要 DockerEngine；Docker Hub 不可达时先配置镜像加速。卸载并删除数据前请备份。局域网内为 HTTP。"
+
+[zh-hk]
+name         = "ChatGPT Next Web"
+auth         = "NextChat"
+version      = "@@VERSION@@"
+descript     = "ChatGPT 风格的多模型聊天前端，需自备 API Key。"
+release_note = "1. First release."
+important    = "首次使用請開啟網頁完成初始化。資料保存在 DockerAppData/chatgptnextwebdocker，重新啟動和升級不會遺失。容器以 uid 1000 運行，掛載目錄需對該使用者可讀。需要 DockerEngine；Docker Hub 不可達時先設定鏡像加速。解除安裝並刪除資料前請備份。區域網路內為 HTTP。"
+
+[fr-fr]
+name         = "ChatGPT Next Web"
+auth         = "NextChat"
+version      = "@@VERSION@@"
+descript     = "ChatGPT Next Web is a cross-platform chat UI for OpenAI, Azure, Claude, Gemini and other model providers. This package runs the official Docker Hub image as a non-root container; API keys and chat history are kept in the browser, so no server-side database is required."
+release_note = "1. First release."
+important    = "Open the web UI, then set your API endpoint and key in Settings (they are stored in your browser). No server-side data is written; the mounted data folder only exists for platform compliance. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN."
+
+[de-de]
+name         = "ChatGPT Next Web"
+auth         = "NextChat"
+version      = "@@VERSION@@"
+descript     = "ChatGPT Next Web is a cross-platform chat UI for OpenAI, Azure, Claude, Gemini and other model providers. This package runs the official Docker Hub image as a non-root container; API keys and chat history are kept in the browser, so no server-side database is required."
+release_note = "1. First release."
+important    = "Open the web UI, then set your API endpoint and key in Settings (they are stored in your browser). No server-side data is written; the mounted data folder only exists for platform compliance. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN."
+
+[it-it]
+name         = "ChatGPT Next Web"
+auth         = "NextChat"
+version      = "@@VERSION@@"
+descript     = "ChatGPT Next Web is a cross-platform chat UI for OpenAI, Azure, Claude, Gemini and other model providers. This package runs the official Docker Hub image as a non-root container; API keys and chat history are kept in the browser, so no server-side database is required."
+release_note = "1. First release."
+important    = "Open the web UI, then set your API endpoint and key in Settings (they are stored in your browser). No server-side data is written; the mounted data folder only exists for platform compliance. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN."
+
+[es-es]
+name         = "ChatGPT Next Web"
+auth         = "NextChat"
+version      = "@@VERSION@@"
+descript     = "ChatGPT Next Web is a cross-platform chat UI for OpenAI, Azure, Claude, Gemini and other model providers. This package runs the official Docker Hub image as a non-root container; API keys and chat history are kept in the browser, so no server-side database is required."
+release_note = "1. First release."
+important    = "Open the web UI, then set your API endpoint and key in Settings (they are stored in your browser). No server-side data is written; the mounted data folder only exists for platform compliance. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN."
+
+[hu-hu]
+name         = "ChatGPT Next Web"
+auth         = "NextChat"
+version      = "@@VERSION@@"
+descript     = "ChatGPT Next Web is a cross-platform chat UI for OpenAI, Azure, Claude, Gemini and other model providers. This package runs the official Docker Hub image as a non-root container; API keys and chat history are kept in the browser, so no server-side database is required."
+release_note = "1. First release."
+important    = "Open the web UI, then set your API endpoint and key in Settings (they are stored in your browser). No server-side data is written; the mounted data folder only exists for platform compliance. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN."
+
+[ja-jp]
+name         = "ChatGPT Next Web"
+auth         = "NextChat"
+version      = "@@VERSION@@"
+descript     = "ChatGPT Next Web is a cross-platform chat UI for OpenAI, Azure, Claude, Gemini and other model providers. This package runs the official Docker Hub image as a non-root container; API keys and chat history are kept in the browser, so no server-side database is required."
+release_note = "1. First release."
+important    = "Open the web UI, then set your API endpoint and key in Settings (they are stored in your browser). No server-side data is written; the mounted data folder only exists for platform compliance. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN."
+
+[ko-kr]
+name         = "ChatGPT Next Web"
+auth         = "NextChat"
+version      = "@@VERSION@@"
+descript     = "ChatGPT Next Web is a cross-platform chat UI for OpenAI, Azure, Claude, Gemini and other model providers. This package runs the official Docker Hub image as a non-root container; API keys and chat history are kept in the browser, so no server-side database is required."
+release_note = "1. First release."
+important    = "Open the web UI, then set your API endpoint and key in Settings (they are stored in your browser). No server-side data is written; the mounted data folder only exists for platform compliance. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN."
+
+[pl-pl]
+name         = "ChatGPT Next Web"
+auth         = "NextChat"
+version      = "@@VERSION@@"
+descript     = "ChatGPT Next Web is a cross-platform chat UI for OpenAI, Azure, Claude, Gemini and other model providers. This package runs the official Docker Hub image as a non-root container; API keys and chat history are kept in the browser, so no server-side database is required."
+release_note = "1. First release."
+important    = "Open the web UI, then set your API endpoint and key in Settings (they are stored in your browser). No server-side data is written; the mounted data folder only exists for platform compliance. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN."
+
+[ru-ru]
+name         = "ChatGPT Next Web"
+auth         = "NextChat"
+version      = "@@VERSION@@"
+descript     = "ChatGPT Next Web is a cross-platform chat UI for OpenAI, Azure, Claude, Gemini and other model providers. This package runs the official Docker Hub image as a non-root container; API keys and chat history are kept in the browser, so no server-side database is required."
+release_note = "1. First release."
+important    = "Open the web UI, then set your API endpoint and key in Settings (they are stored in your browser). No server-side data is written; the mounted data folder only exists for platform compliance. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN."
+
+[tr-tr]
+name         = "ChatGPT Next Web"
+auth         = "NextChat"
+version      = "@@VERSION@@"
+descript     = "ChatGPT Next Web is a cross-platform chat UI for OpenAI, Azure, Claude, Gemini and other model providers. This package runs the official Docker Hub image as a non-root container; API keys and chat history are kept in the browser, so no server-side database is required."
+release_note = "1. First release."
+important    = "Open the web UI, then set your API endpoint and key in Settings (they are stored in your browser). No server-side data is written; the mounted data folder only exists for platform compliance. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN."
+
+[pt-pt]
+name         = "ChatGPT Next Web"
+auth         = "NextChat"
+version      = "@@VERSION@@"
+descript     = "ChatGPT Next Web is a cross-platform chat UI for OpenAI, Azure, Claude, Gemini and other model providers. This package runs the official Docker Hub image as a non-root container; API keys and chat history are kept in the browser, so no server-side database is required."
+release_note = "1. First release."
+important    = "Open the web UI, then set your API endpoint and key in Settings (they are stored in your browser). No server-side data is written; the mounted data folder only exists for platform compliance. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN."
+
+[ar-sa]
+name         = "ChatGPT Next Web"
+auth         = "NextChat"
+version      = "@@VERSION@@"
+descript     = "ChatGPT Next Web is a cross-platform chat UI for OpenAI, Azure, Claude, Gemini and other model providers. This package runs the official Docker Hub image as a non-root container; API keys and chat history are kept in the browser, so no server-side database is required."
+release_note = "1. First release."
+important    = "Open the web UI, then set your API endpoint and key in Settings (they are stored in your browser). No server-side data is written; the mounted data folder only exists for platform compliance. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN."
+
+[cs-cz]
+name         = "ChatGPT Next Web"
+auth         = "NextChat"
+version      = "@@VERSION@@"
+descript     = "ChatGPT Next Web is a cross-platform chat UI for OpenAI, Azure, Claude, Gemini and other model providers. This package runs the official Docker Hub image as a non-root container; API keys and chat history are kept in the browser, so no server-side database is required."
+release_note = "1. First release."
+important    = "Open the web UI, then set your API endpoint and key in Settings (they are stored in your browser). No server-side data is written; the mounted data folder only exists for platform compliance. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN."
+
+[he-il]
+name         = "ChatGPT Next Web"
+auth         = "NextChat"
+version      = "@@VERSION@@"
+descript     = "ChatGPT Next Web is a cross-platform chat UI for OpenAI, Azure, Claude, Gemini and other model providers. This package runs the official Docker Hub image as a non-root container; API keys and chat history are kept in the browser, so no server-side database is required."
+release_note = "1. First release."
+important    = "Open the web UI, then set your API endpoint and key in Settings (they are stored in your browser). No server-side data is written; the mounted data folder only exists for platform compliance. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN."
+
+[id-id]
+name         = "ChatGPT Next Web"
+auth         = "NextChat"
+version      = "@@VERSION@@"
+descript     = "ChatGPT Next Web is a cross-platform chat UI for OpenAI, Azure, Claude, Gemini and other model providers. This package runs the official Docker Hub image as a non-root container; API keys and chat history are kept in the browser, so no server-side database is required."
+release_note = "1. First release."
+important    = "Open the web UI, then set your API endpoint and key in Settings (they are stored in your browser). No server-side data is written; the mounted data folder only exists for platform compliance. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN."
+
+[nb-no]
+name         = "ChatGPT Next Web"
+auth         = "NextChat"
+version      = "@@VERSION@@"
+descript     = "ChatGPT Next Web is a cross-platform chat UI for OpenAI, Azure, Claude, Gemini and other model providers. This package runs the official Docker Hub image as a non-root container; API keys and chat history are kept in the browser, so no server-side database is required."
+release_note = "1. First release."
+important    = "Open the web UI, then set your API endpoint and key in Settings (they are stored in your browser). No server-side data is written; the mounted data folder only exists for platform compliance. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN."
+
+[nl-nl]
+name         = "ChatGPT Next Web"
+auth         = "NextChat"
+version      = "@@VERSION@@"
+descript     = "ChatGPT Next Web is a cross-platform chat UI for OpenAI, Azure, Claude, Gemini and other model providers. This package runs the official Docker Hub image as a non-root container; API keys and chat history are kept in the browser, so no server-side database is required."
+release_note = "1. First release."
+important    = "Open the web UI, then set your API endpoint and key in Settings (they are stored in your browser). No server-side data is written; the mounted data folder only exists for platform compliance. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN."
+
+[sv-se]
+name         = "ChatGPT Next Web"
+auth         = "NextChat"
+version      = "@@VERSION@@"
+descript     = "ChatGPT Next Web is a cross-platform chat UI for OpenAI, Azure, Claude, Gemini and other model providers. This package runs the official Docker Hub image as a non-root container; API keys and chat history are kept in the browser, so no server-side database is required."
+release_note = "1. First release."
+important    = "Open the web UI, then set your API endpoint and key in Settings (they are stored in your browser). No server-side data is written; the mounted data folder only exists for platform compliance. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN."
+
+[th-th]
+name         = "ChatGPT Next Web"
+auth         = "NextChat"
+version      = "@@VERSION@@"
+descript     = "ChatGPT Next Web is a cross-platform chat UI for OpenAI, Azure, Claude, Gemini and other model providers. This package runs the official Docker Hub image as a non-root container; API keys and chat history are kept in the browser, so no server-side database is required."
+release_note = "1. First release."
+important    = "Open the web UI, then set your API endpoint and key in Settings (they are stored in your browser). No server-side data is written; the mounted data folder only exists for platform compliance. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN."
+
+[vi-vn]
+name         = "ChatGPT Next Web"
+auth         = "NextChat"
+version      = "@@VERSION@@"
+descript     = "ChatGPT Next Web is a cross-platform chat UI for OpenAI, Azure, Claude, Gemini and other model providers. This package runs the official Docker Hub image as a non-root container; API keys and chat history are kept in the browser, so no server-side database is required."
+release_note = "1. First release."
+important    = "Open the web UI, then set your API endpoint and key in Settings (they are stored in your browser). No server-side data is written; the mounted data folder only exists for platform compliance. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN."
+
